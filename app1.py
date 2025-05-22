@@ -21,8 +21,8 @@ except Exception as e:
     st.error(f"Erro ao inicializar o cliente da API Google GenAI: {e}")
     st.stop()
 
-MODELO_RAPIDO = "gemini-1.5-flash-latest"
-MODELO_ROBUSTO = "gemini-1.5-pro-latest"
+MODELO_RAPIDO = "gemini-2.0-flash"
+MODELO_ROBUSTO = "gemini-2.0-flash"
 
 session_service = InMemorySessionService()
 
