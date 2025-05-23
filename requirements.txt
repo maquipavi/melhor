@@ -1,4 +1,8 @@
-google-genai
-google-adk
-streamlit
-pandas
+streamlit>=1.28.0
+google-genai>=0.8.0
+google-adk>=0.1.0
+pandas>=1.5.0
+asyncio
+datetime
+warnings
+re
