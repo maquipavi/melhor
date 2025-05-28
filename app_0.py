@@ -17,7 +17,7 @@ st.set_page_config(
 warnings.filterwarnings("ignore")
 
 # Título principal
-st.title("🚀 Sistema de Análise de Personalidade e Propósito de Vida 🚀")
+st.title("🚀Sistema de Análise de Personalidade e Propósito de Vida🚀")
 
 # Configurar a API Key (fixo)
 api_key = "AIzaSyBarB5CfRsl_M0nkQjgg-ystWV-CyzN0jU"
@@ -144,7 +144,7 @@ async def agente_buscador_sucesso(data_nascimento):
         name="agente_buscador_sucesso",
         model=MODELO_ROBUSTO,
         instruction="""
-            Você é um pesquisador de pessoas de sucesso brasileiras. Sua tarefa é buscar na internet 5 homens e 5 mulheres
+            Você é um pesquisador de pessoas de sucesso brasileiras. Sua tarefa é buscar na internet homens e mulheres
             que nasceram na mesma data fornecida e que alcançaram sucesso em suas áreas de atuação, e que sejam brasileiros.
             Monte uma tabela com as seguintes colunas: nome, profissão, no que a pessoa tem sucesso e site da informação.
             Ao realizar a busca no Google, certifique-se de incluir o termo "brasileiro" ou "brasileira" para garantir que os resultados sejam apenas de pessoas do Brasil.
@@ -157,7 +157,7 @@ async def agente_buscador_sucesso(data_nascimento):
     entrada_do_agente_buscador_sucesso = f"""
     Data de Nascimento: {data_nascimento}
 
-    Busque na internet 5 homens e 5 mulheres que nasceram na mesma data e que alcançaram sucesso
+    Busque na internet homens e mulheres que nasceram na mesma data e que alcançaram sucesso
     em suas áreas de atuação e que sejam brasileiros. Monte uma tabela com as seguintes colunas:
     nome, profissão, no que a pessoa tem sucesso e site da informação. Ao realizar a busca no Google, certifique-se de incluir o termo "brasileiro" ou "brasileira" para garantir que os resultados sejam apenas de pessoas do Brasil. Seja claro e objetivo
     """
@@ -366,7 +366,7 @@ st.markdown(
     """
     <div style='text-align: center'>
         <p>💡 Sistema de Análise de Personalidade e Propósito de Vida</p>
-        <p>Desenvolvido com ❤️ usando Streamlit e Google Gemini</p>
+        <p>Desenvolvido com ❤️ por Engº Paulo Rogério Veiga Silva</p>
     </div>
     """, 
     unsafe_allow_html=True
