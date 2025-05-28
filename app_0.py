@@ -186,7 +186,7 @@ async def agente_buscador_sucesso(data_nascimento):
                 elif len(cleaned_values) > 0:
                     data.append(cleaned_values + [''] * (4 - len(cleaned_values)))
 
-    df = pd.DataFrame(data, columns=["Nome", "Profissão", "Sucesso"])
+    df = pd.DataFrame(data, columns=["Nome", "Profissão", "Sucesso", "Site da Informação"])
     return df, tabela_sucesso
 
 # Agente 4: Gerador de Relatório Final
