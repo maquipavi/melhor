@@ -17,7 +17,7 @@ Este projeto utiliza agentes de Inteligência Artificial, impulsionados pelo mod
 
 https://melhorIA.streamlit.app/
 
-#### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 *   **Python:** Linguagem de programação principal.
 *   **Google Gemini API:**  Modelo de linguagem utilizado pelos agentes de IA.
