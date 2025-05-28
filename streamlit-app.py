@@ -21,7 +21,7 @@ st.title("🚀 Sistema de Análise de Personalidade e Propósito de Vida 🚀")
 
 # Sidebar para configurações
 st.sidebar.header("⚙️ Configurações")
-api_key = AIzaSyBarB5CfRsl_M0nkQjgg-ystWV-CyzN0jU
+api_key = st.sidebar.text_input("Google API Key", type="password", help="Digite sua chave da API do Google Gemini")
 
 if not api_key:
     st.warning("⚠️ Por favor, insira sua Google API Key na barra lateral para continuar.")
