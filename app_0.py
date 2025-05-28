@@ -17,7 +17,7 @@ st.set_page_config(
 warnings.filterwarnings("ignore")
 
 # Título principal
-st.title("🚀Sistema de Análise de Personalidade e Propósito de Vida🚀")
+st.title("Sistema de Análise de Personalidade e Propósito de Vida!")
 
 # Configurar a API Key (fixo)
 api_key = "AIzaSyBarB5CfRsl_M0nkQjgg-ystWV-CyzN0jU"
@@ -186,7 +186,7 @@ async def agente_buscador_sucesso(data_nascimento):
                 elif len(cleaned_values) > 0:
                     data.append(cleaned_values + [''] * (4 - len(cleaned_values)))
 
-    df = pd.DataFrame(data, columns=["Nome", "Profissão", "Sucesso", "Site da Informação"])
+    df = pd.DataFrame(data, columns=["Nome", "Profissão", "Sucesso"])
     return df, tabela_sucesso
 
 # Agente 4: Gerador de Relatório Final
@@ -366,7 +366,7 @@ st.markdown(
     """
     <div style='text-align: center'>
         <p>💡 Sistema de Análise de Personalidade e Propósito de Vida</p>
-        <p>Desenvolvido com ❤️ por Engº Paulo Rogério Veiga Silva</p>
+        <p>Desenvolvido com ❤️ por Engº Paulo Rogério Veiga Silva!</p>
     </div>
     """, 
     unsafe_allow_html=True
