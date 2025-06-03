@@ -45,7 +45,7 @@ except Exception as e:
 
 # Definir modelos
 MODELO_RAPIDO = "gemini-2.0-flash"
-MODELO_ROBUSTO = "gemini-2.0-flash"
+MODELO_ROBUSTO = "gemini-2.5-flash-preview-04-17"
 
 # Inicializar serviço de sessão (cache para evitar reinicialização)
 @st.cache_resource
