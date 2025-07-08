@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore")
 st.title("Sistema de Análise de Personalidade e Propósito de Vida!")
 
 # Configurar a API Key (fixo)
-api_key = "AIzaSyBb4NAieSTmH1u9GMnwLX9kXBOghqHghY0"
+api_key = "AIzaSyCZcvMHAMfaJU0czwhB9Gt8De0vc8p273U"
 os.environ["GOOGLE_API_KEY"] = api_key
 
 # Importações necessárias (só depois de configurar a API)
